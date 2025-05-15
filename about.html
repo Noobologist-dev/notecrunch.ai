@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - NoteCrunch</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body.about-bg {
+            background: linear-gradient(135deg, #f0f4ff 0%, #e0e7ff 100%);
+        }
+        .about-card {
+            background: #fff;
+            border-radius: 1.2rem;
+            box-shadow: 0 4px 24px 0 rgba(99,102,241,0.08);
+            padding: 2.5rem 2rem 2rem 2rem;
+            max-width: 600px;
+            margin: 3.5rem auto 2.5rem auto;
+            text-align: center;
+        }
+        .about-avatar {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, #6366f1 0%, #818cf8 100%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 1.2rem auto;
+            box-shadow: 0 2px 8px 0 rgba(99,102,241,0.10);
+        }
+        .about-avatar svg {
+            width: 48px;
+            height: 48px;
+            color: #fff;
+        }
+        .about-card h1 {
+            font-size: 2rem;
+            margin-bottom: 1.2rem;
+        }
+        .about-card p {
+            font-size: 1.15rem;
+            color: var(--text-light);
+            margin-bottom: 0;
+        }
+    </style>
+</head>
+<body class="about-bg">
+    <nav id="navbar">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html"><span>Note<span class="highlight">Crunch</span></span></a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html#home">Home</a></li>
+                <li><a href="index.html#features">Features</a></li>
+                <li><a href="index.html#testimonials">Why I Built NoteCrunch?</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="mobile-menu-btn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+    <section class="hero" style="min-height: 60vh; background: none;">
+        <div class="about-card">
+            <div class="about-avatar">
+                <svg fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24"><circle cx="12" cy="7" r="4"/><path d="M5.5 21a7.5 7.5 0 0 1 13 0"/></svg>
+            </div>
+            <div class="badge">About</div>
+            <h1>Hi, I'm a curious code-slinger and caffeine-fueled creator who loves building tools that do the heavy lifting—so humans don't have to.</h1>
+            <p>Whether it's simplifying study sessions or crafting no-fuss, free apps like NoteCrunch, I'm all about turning "ugh, this is tedious" into "whoa, that was easy."<br><br>
+            No signups, no paywalls—just useful stuff, straight from my brain to your screen.</p>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <span>Note<span class="highlight">Crunch</span></span>
+                    <p>Simplify your reading. Amplify your understanding.</p>
+                </div>
+                <div class="footer-links">
+                    <div class="link-group">
+                        <h4>Product</h4>
+                        <ul>
+                            <li><a href="index.html#features">Features</a></li>
+                        </ul>
+                    </div>
+                    <div class="link-group">
+                        <h4>Developer</h4>
+                        <ul>
+                            <li><a href="about.html">About</a></li>
+                        </ul>
+                    </div>
+                    <div class="link-group">
+                        <h4>Support/Work</h4>
+                        <ul>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="copyright">
+                    <p>&copy; 2025 NoteCrunch. All rights reserved.</p>
+                </div>
+                <div class="social-links">
+                    <a href="mailto:srijeetshikalgar00@gmail.com" class="social-link" title="Email">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect x="2" y="4" width="20" height="16" rx="2" fill="#EA4335"/>
+                            <path d="M22 6.5L12 13L2 6.5" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </a>
+                    <a href="https://github.com/Noobologist-dev" class="social-link" target="_blank" title="GitHub">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12 2C6.48 2 2 6.48 2 12C2 16.42 5.06 20.06 9.26 21.18C9.86 21.28 10.08 20.92 10.08 20.62C10.08 20.36 10.07 19.68 10.07 18.91C7 19.54 6.34 17.73 6.34 17.73C5.82 16.5 5.03 16.18 5.03 16.18C3.91 15.5 5.12 15.52 5.12 15.52C6.36 15.61 7 16.77 7 16.77C8.09 18.61 9.91 18.09 10.54 17.81C10.64 17.03 10.92 16.5 11.23 16.22C8.98 15.94 6.62 15.01 6.62 11.5C6.62 10.47 7 9.68 7.62 9.06C7.52 8.78 7.18 7.79 7.72 6.47C7.72 6.47 8.5 6.18 10.07 7.24C10.8 7.04 11.6 6.94 12.4 6.94C13.2 6.94 14 7.04 14.73 7.24C16.3 6.18 17.08 6.47 17.08 6.47C17.62 7.79 17.28 8.78 17.18 9.06C17.8 9.68 18.18 10.47 18.18 11.5C18.18 15.02 15.81 15.93 13.56 16.21C13.97 16.57 14.33 17.27 14.33 18.29C14.33 19.74 14.32 20.29 14.32 20.62C14.32 20.92 14.54 21.29 15.15 21.18C19.35 20.06 22.41 16.42 22.41 12C22.41 6.48 17.93 2 12.41 2H12Z" fill="#181717"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html> 
